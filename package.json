@@ -1,0 +1,39 @@
+{
+  "name": "rohit-kumar-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A dark, futuristic and interactive developer portfolio for Rohit Kumar.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "prebuild": "npm run resume",
+    "build": "vite build",
+    "preview": "vite preview",
+    "resume": "node scripts/generate-resume.mjs"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iim-rohit/portfolio.git"
+  },
+  "author": "Rohit Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "framer-motion": "^14.9.1",
+    "gsap": "^3.15.1",
+    "lenis": "^1.3.27",
+    "lucide-react": "^1.69.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-icons": "^5.7.0",
+    "tailwindcss": "^4.3.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.2.1",
+    "pdfkit": "^0.20.2",
+    "vite": "^8.3.6"
+  }
+}

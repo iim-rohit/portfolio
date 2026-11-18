@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1120" width="900" height="1120" role="img" aria-label="Stylized portrait placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a0c0f"/>
+      <stop offset="0.52" stop-color="#0d090a"/>
+      <stop offset="1" stop-color="#070707"/>
+    </linearGradient>
+    <radialGradient id="headGlow" cx="0.5" cy="0.4" r="0.55">
+      <stop offset="0" stop-color="#ff5668" stop-opacity="0.42"/>
+      <stop offset="0.5" stop-color="#a30d20" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#a30d20" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="head" x1="0.22" y1="0.1" x2="0.88" y2="1">
+      <stop offset="0" stop-color="#422a30"/>
+      <stop offset="0.42" stop-color="#322025"/>
+      <stop offset="1" stop-color="#170f11"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0.2" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#40232a"/>
+      <stop offset="0.45" stop-color="#241417"/>
+      <stop offset="1" stop-color="#100b0c"/>
+    </linearGradient>
+    <linearGradient id="hoodie" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#382029"/>
+      <stop offset="0.48" stop-color="#211519"/>
+      <stop offset="1" stop-color="#0f0a0b"/>
+    </linearGradient>
+    <linearGradient id="hoodieLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff6b78" stop-opacity="0.5"/>
+      <stop offset="0.36" stop-color="#e01e37" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#e01e37" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffb3ba" stop-opacity="0.9"/>
+      <stop offset="0.45" stop-color="#ff5365" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#8f0c1d" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bottomFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#080808" stop-opacity="0"/>
+      <stop offset="0.6" stop-color="#080808" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#080808" stop-opacity="0.96"/>
+    </linearGradient>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M 54 0 L 0 0 0 54" fill="none" stroke="#ff5365" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <filter id="softBlur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="42"/>
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <clipPath id="frameClip">
+      <rect x="0" y="0" width="900" height="1120"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frameClip)">
+    <rect width="900" height="1120" fill="url(#bg)"/>
+    <rect width="900" height="1120" fill="url(#grid)"/>
+    <ellipse cx="470" cy="400" rx="390" ry="360" fill="url(#headGlow)"/>
+    <circle cx="450" cy="470" r="330" fill="none" stroke="#ff5365" stroke-opacity="0.1"/>
+    <circle cx="450" cy="470" r="298" fill="none" stroke="#ff5365" stroke-opacity="0.06" stroke-dasharray="3 12"/>
+
+    <ellipse cx="450" cy="1050" rx="360" ry="52" fill="#000" opacity="0.55" filter="url(#softBlur)"/>
+
+    <g>
+      <!-- hoodie / shoulders -->
+      <path d="M74 1120 C96 936 186 842 314 794 L586 794 C714 842 804 936 826 1120 Z" fill="url(#hoodie)"/>
+      <path d="M74 1120 C96 936 186 842 314 794 L350 824 C258 886 196 976 172 1120 Z" fill="url(#hoodieLight)" opacity="0.55"/>
+      <path d="M586 794 C650 820 694 852 728 894 C768 942 797 1028 808 1120 L826 1120 C804 936 714 842 586 794 Z" fill="#e01e37" opacity="0.08"/>
+
+      <!-- hood collar -->
+      <path d="M302 812 C338 758 388 730 450 730 C512 730 562 758 598 812 C566 860 516 888 450 888 C384 888 334 860 302 812 Z" fill="#0d090a"/>
+      <path d="M302 812 C338 758 388 730 450 730 C512 730 562 758 598 812" fill="none" stroke="#ff5365" stroke-opacity="0.22" stroke-width="1.4"/>
+      <path d="M329 835 C367 800 407 785 450 785 C493 785 533 800 571 835" fill="none" stroke="#ff5365" stroke-opacity="0.12"/>
+
+      <!-- neck -->
+      <path d="M379 650 L521 650 L535 790 C505 824 478 838 450 838 C422 838 395 824 365 790 Z" fill="#26181c"/>
+      <path d="M379 650 L408 650 L400 790 C391 801 380 810 365 790 Z" fill="#3a2429" opacity="0.85"/>
+      <path d="M521 650 L535 790 C520 806 505 818 490 825 L486 650 Z" fill="#ff5365" opacity="0.09"/>
+
+      <!-- head -->
+      <path d="M329 389 C329 283 375 229 450 229 C525 229 571 283 571 389 L571 506 C571 602 522 663 450 663 C378 663 329 602 329 506 Z" fill="url(#head)"/>
+
+      <!-- ears -->
+      <path d="M329 413 C310 402 300 415 303 442 C306 468 318 481 332 474 Z" fill="#312024"/>
+      <path d="M571 413 C590 402 600 415 597 442 C594 468 582 481 568 474 Z" fill="#312024"/>
+      <path d="M571 413 C590 402 600 415 597 442 C594 468 582 481 568 474 Z" fill="url(#rim)" opacity="0.24"/>
+
+      <!-- hair -->
+      <path d="M326 400 C314 285 375 209 452 209 C533 209 586 281 574 402 C556 368 531 344 499 329 C459 310 415 316 381 345 C357 365 339 381 326 400 Z" fill="url(#hair)"/>
+      <path d="M574 402 C590 380 590 320 566 275 C545 235 505 209 452 209 C498 224 530 252 549 290 C565 322 570 360 574 402 Z" fill="#ff5365" opacity="0.08"/>
+      <path d="M349 300 C378 255 419 234 468 232" fill="none" stroke="#ffb3ba" stroke-opacity="0.18" stroke-width="2"/>
+
+      <!-- rim light on face -->
+      <path d="M560 368 C575 432 575 518 546 575 C532 603 513 627 489 644" fill="none" stroke="url(#rim)" stroke-width="8" stroke-linecap="round" opacity="0.72"/>
+      <path d="M548 350 C558 380 562 414 562 446" fill="none" stroke="#ffd1d5" stroke-width="2.2" stroke-linecap="round" opacity="0.44"/>
+
+      <!-- glasses -->
+      <g fill="none" stroke="#ffbcc4" stroke-opacity="0.55" stroke-width="2">
+        <rect x="350" y="380" width="91" height="58" rx="21" fill="#0a0808" fill-opacity="0.42"/>
+        <rect x="459" y="380" width="91" height="58" rx="21" fill="#0a0808" fill-opacity="0.42"/>
+        <path d="M441 401 C447 394 453 394 459 401"/>
+        <path d="M350 395 L331 402"/>
+        <path d="M550 395 L569 402"/>
+      </g>
+      <path d="M364 400 C382 390 409 390 427 401" fill="none" stroke="#ffd1d5" stroke-opacity="0.28"/>
+
+      <!-- subtle features -->
+      <path d="M450 438 L444 492 C444 497 448 500 454 499" fill="none" stroke="#ffb3ba" stroke-opacity="0.24" stroke-width="1.4" stroke-linecap="round"/>
+      <path d="M417 550 C434 560 466 560 483 550" fill="none" stroke="#ff8b96" stroke-opacity="0.32" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M400 518 C420 524 442 525 460 520" fill="none" stroke="#000" stroke-opacity="0.2"/>
+
+      <!-- hoodie highlights -->
+      <path d="M314 794 C268 828 230 876 204 930" fill="none" stroke="#ff5365" stroke-opacity="0.22" stroke-width="2"/>
+      <path d="M586 794 C646 824 691 862 725 908" fill="none" stroke="#ff5365" stroke-opacity="0.1" stroke-width="2"/>
+      <path d="M450 888 L450 1120" stroke="#ff5365" stroke-opacity="0.08" stroke-width="1"/>
+      <path d="M392 902 C382 970 380 1042 388 1120" fill="none" stroke="#ffb3ba" stroke-opacity="0.11" stroke-width="2"/>
+      <path d="M508 902 C518 970 520 1042 512 1120" fill="none" stroke="#ffb3ba" stroke-opacity="0.07" stroke-width="2"/>
+      <circle cx="392" cy="940" r="4" fill="#ff5365" fill-opacity="0.45"/>
+      <circle cx="508" cy="940" r="4" fill="#ff5365" fill-opacity="0.24"/>
+    </g>
+
+    <!-- atmospheric lines -->
+    <path d="M0 705 L900 620" stroke="#ff5365" stroke-opacity="0.07"/>
+    <path d="M0 748 L900 690" stroke="#ff5365" stroke-opacity="0.04"/>
+    <path d="M56 1120 L56 780" stroke="#ff5365" stroke-opacity="0.12"/>
+    <path d="M844 1120 L844 820" stroke="#ff5365" stroke-opacity="0.08"/>
+    <circle cx="56" cy="780" r="3" fill="#ff5365" fill-opacity="0.5"/>
+    <circle cx="844" cy="820" r="3" fill="#ff5365" fill-opacity="0.35"/>
+
+    <rect x="0" y="720" width="900" height="400" fill="url(#bottomFade)"/>
+    <rect width="900" height="1120" filter="url(#grain)" opacity="0.045" style="mix-blend-mode:overlay"/>
+  </g>
+</svg>

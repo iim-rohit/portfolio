@@ -1,0 +1,366 @@
+{
+  "meta": {
+    "title": "Rohit Kumar — Frontend Developer",
+    "description": "Rohit Kumar is a B.Tech Information Technology student and aspiring frontend developer building beautiful, interactive and user-friendly web experiences.",
+    "keywords": [
+      "Rohit Kumar",
+      "Frontend Developer",
+      "React Developer",
+      "B.Tech Information Technology",
+      "Portfolio",
+      "Rungta College of Engineering and Technology"
+    ],
+    "themeColor": "#0A0A0A"
+  },
+  "person": {
+    "name": "Rohit Kumar",
+    "firstName": "Rohit",
+    "initials": "RK",
+    "role": "Frontend Developer",
+    "tagline": "Frontend Developer · Creative Thinker · Tech Enthusiast",
+    "heroStatement": {
+      "line1": "Building",
+      "line2": "digital experiences",
+      "line3": "that matter."
+    },
+    "heroHeading": {
+      "line1": "HELLO, I'M",
+      "line2": "ROHIT",
+      "line3": "KUMAR"
+    },
+    "heroDescription": "I'm a B.Tech Information Technology student passionate about building beautiful, interactive, and user-friendly web experiences. I enjoy transforming creative ideas into functional digital products.",
+    "aboutLead": "A fresher with a builder's mindset.",
+    "aboutBody": "I'm a B.Tech Information Technology student and aspiring frontend developer who enjoys learning new technologies and turning ideas into working web applications. My focus is on clean interfaces, thoughtful interactions and experiences that feel effortless to use.",
+    "aboutSecondary": "Right now, I'm sharpening my frontend skills, exploring creative coding, and building projects that solve real problems — one component at a time.",
+    "location": "Patna, Bihar, India",
+    "email": "8555rjkumar@gmail.com",
+    "availability": "Open to internships & entry-level roles",
+    "college": "Rungta College of Engineering and Technology",
+    "collegeLocation": "Bhilai, Chhattisgarh",
+    "degree": "B.Tech in Information Technology",
+    "graduation": "2022–2026",
+    "resumeUrl": "Rohit-Kumar-Resume.pdf",
+    "resumeLabel": "Download Resume",
+    "portrait": "portrait.svg",
+    "portraitAlt": "Stylized dark red portrait placeholder for Rohit Kumar"
+  },
+  "nav": [
+    { "label": "Home", "href": "#home" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Experience", "href": "#experience" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "sections": {
+    "about": {
+      "index": "01",
+      "eyebrow": "A little about me",
+      "title": "A fresher with a",
+      "accent": "builder's mindset."
+    },
+    "projects": {
+      "index": "02",
+      "eyebrow": "Selected work",
+      "title": "Projects with a",
+      "accent": "purpose.",
+      "description": "A closer look at what I've been building — from conversations to essential services."
+    },
+    "skills": {
+      "index": "03",
+      "eyebrow": "Skills & expertise",
+      "title": "A toolkit for",
+      "accent": "building the web.",
+      "description": "The technologies I use to turn ideas into interfaces. No percentage bars — just the tools I build with."
+    },
+    "education": {
+      "index": "04",
+      "eyebrow": "Experience & education",
+      "title": "The road",
+      "accent": "so far.",
+      "description": "A timeline of the classrooms, scores and milestones that shaped how I think and build."
+    },
+    "certification": {
+      "index": "04",
+      "eyebrow": "Certification",
+      "title": "Learning beyond the",
+      "accent": "classroom.",
+      "description": "A full-stack milestone that pushed me past the frontend and into how complete applications are built."
+    },
+    "why": {
+      "index": "05",
+      "eyebrow": "Why work with me",
+      "title": "Built on intent,",
+      "accent": "not just code.",
+      "description": "The way I approach the work matters as much as the work itself — clear thinking, clean execution and a genuine care for the people using it."
+    },
+    "contact": {
+      "index": "06",
+      "eyebrow": "Contact",
+      "title": "Let's build something",
+      "accent": "amazing.",
+      "description": "Have an interesting idea or opportunity? Let's connect and create something great together."
+    }
+  },
+  "skillsCta": {
+    "eyebrow": "NEXT UP",
+    "title": "See what I've built",
+    "detail": "Two projects, two real problems, and a lot of learning."
+  },
+  "stats": [
+    { "value": 2, "suffix": "", "label": "Projects built" },
+    { "value": 7, "suffix": "", "label": "Core skills" },
+    { "value": 1, "suffix": "", "label": "Certification" },
+    { "value": 2026, "suffix": "", "label": "Graduating" }
+  ],
+  "aboutCards": [
+    {
+      "title": "B.Tech in Information Technology",
+      "detail": "Rungta College of Engineering and Technology, Bhilai",
+      "icon": "GraduationCap"
+    },
+    {
+      "title": "Frontend focused",
+      "detail": "Building interfaces with HTML, CSS, JavaScript and React",
+      "icon": "LayoutDashboard"
+    },
+    {
+      "title": "Creative coding",
+      "detail": "Exploring motion, 3D and interactive web experiences",
+      "icon": "Sparkles"
+    }
+  ],
+  "journey": [
+    {
+      "marker": "2022",
+      "title": "Started B.Tech in IT",
+      "detail": "Began my undergraduate journey at Rungta College of Engineering and Technology."
+    },
+    {
+      "marker": "NOW",
+      "title": "Learning by building",
+      "detail": "Building academic projects, exploring frontend development and earning a MERN stack certification."
+    },
+    {
+      "marker": "2026",
+      "title": "Expected graduation",
+      "detail": "Working toward my B.Tech degree and a career in frontend development."
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "category": "Structure",
+      "note": "Semantic, accessible markup",
+      "icon": "FileCode2",
+      "color": "#F97316"
+    },
+    {
+      "name": "CSS",
+      "category": "Styling",
+      "note": "Responsive layouts & motion",
+      "icon": "Paintbrush",
+      "color": "#38BDF8"
+    },
+    {
+      "name": "JavaScript",
+      "category": "Logic",
+      "note": "Interactive experiences",
+      "icon": "Braces",
+      "color": "#FACC15"
+    },
+    {
+      "name": "React.js",
+      "category": "Framework",
+      "note": "Component-driven interfaces",
+      "icon": "Atom",
+      "color": "#22D3EE"
+    },
+    {
+      "name": "C",
+      "category": "Foundation",
+      "note": "Programming fundamentals",
+      "icon": "Terminal",
+      "color": "#A78BFA"
+    },
+    {
+      "name": "C++",
+      "category": "Foundation",
+      "note": "Problem solving & logic",
+      "icon": "Cpu",
+      "color": "#818CF8"
+    },
+    {
+      "name": "GitHub",
+      "category": "Workflow",
+      "note": "Version control & collaboration",
+      "icon": "Github",
+      "color": "#E5E7EB"
+    }
+  ],
+  "expertise": [
+    {
+      "title": "Frontend Development",
+      "icon": "LayoutDashboard",
+      "note": "Clean interfaces, responsive layouts and component-driven user experiences.",
+      "items": ["HTML", "CSS", "JavaScript", "React.js"],
+      "accent": "core"
+    },
+    {
+      "title": "Backend Foundations",
+      "icon": "Server",
+      "note": "Server-side fundamentals explored through the MERN stack certification.",
+      "items": ["Node.js", "Express.js"],
+      "accent": "mern",
+      "tag": "MERN certification"
+    },
+    {
+      "title": "Programming Languages",
+      "icon": "Braces",
+      "note": "A foundation in logic, problem solving and structured thinking.",
+      "items": ["JavaScript", "C", "C++"],
+      "accent": "core"
+    },
+    {
+      "title": "Database Management",
+      "icon": "Database",
+      "note": "Document data fundamentals covered in the MERN stack certification.",
+      "items": ["MongoDB"],
+      "accent": "mern",
+      "tag": "MERN certification"
+    },
+    {
+      "title": "Tools & Technologies",
+      "icon": "Wrench",
+      "note": "A focused workflow for version control, collaboration and building.",
+      "items": ["GitHub", "VS Code"],
+      "accent": "core"
+    }
+  ],
+  "whyMe": [
+    {
+      "title": "Creative Problem Solving",
+      "description": "I like getting to the root of a problem and finding the simplest path to a thoughtful solution.",
+      "icon": "Lightbulb",
+      "number": "01"
+    },
+    {
+      "title": "Clean & Scalable Code",
+      "description": "Readable components, sensible structure and code that stays easy to reason about as it grows.",
+      "icon": "Code2",
+      "number": "02"
+    },
+    {
+      "title": "Modern UI/UX Development",
+      "description": "Interfaces built with hierarchy, rhythm and motion — designed to feel clear, fast and effortless.",
+      "icon": "MonitorSmartphone",
+      "number": "03"
+    },
+    {
+      "title": "Continuous Learning",
+      "description": "Every project is a chance to go deeper. I stay curious, iterate and keep raising the bar.",
+      "icon": "Rocket",
+      "number": "04"
+    }
+  ],
+  "projects": [
+    {
+      "id": "buzz-chat",
+      "index": "01",
+      "title": "Buzz Chat",
+      "eyebrow": "Chat application",
+      "description": "A chat application where users can communicate with each other after joining the application.",
+      "college": "Rungta College of Engineering and Technology",
+      "tools": ["VS Code"],
+      "tags": ["Web app", "Chat", "Academic project"],
+      "image": "projects/buzz-chat.svg",
+      "imageAlt": "Stylized dark red preview of the Buzz Chat interface",
+      "liveUrl": null,
+      "githubUrl": null
+    },
+    {
+      "id": "smart-electricity-billing-system",
+      "index": "02",
+      "title": "Smart Electricity Billing System",
+      "eyebrow": "Billing platform",
+      "description": "A smart electricity billing website that allows users to pay electricity bills online, especially targeting rural areas.",
+      "college": "Rungta College of Engineering and Technology",
+      "tools": ["VS Code"],
+      "tags": ["Web app", "Billing", "Rural access"],
+      "image": "projects/smart-billing.svg",
+      "imageAlt": "Stylized dark red preview of the Smart Electricity Billing System",
+      "liveUrl": null,
+      "githubUrl": null
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Information Technology",
+      "institution": "Rungta College of Engineering and Technology",
+      "location": "Bhilai, Chhattisgarh",
+      "period": "2022–2026",
+      "score": null,
+      "status": "Currently pursuing",
+      "icon": "GraduationCap"
+    },
+    {
+      "degree": "Class 12 — CBSE",
+      "institution": "Satyam International School",
+      "location": "Patna, Bihar",
+      "period": "2022",
+      "score": "66.6%",
+      "status": "Completed",
+      "icon": "BookOpen"
+    },
+    {
+      "degree": "Class 10 — CBSE",
+      "institution": "Satyam International School",
+      "location": "Patna, Bihar",
+      "period": "2020",
+      "score": "70.6%",
+      "status": "Completed",
+      "icon": "BookOpen"
+    }
+  ],
+  "certification": {
+    "title": "MERN Stack Full Developer",
+    "institute": "Coding Spoon",
+    "provider": "Rungta College of Engineering and Technology",
+    "icon": "BadgeCheck",
+    "note": "A full-stack development certification focused on the MERN stack."
+  },
+  "interests": [
+    { "name": "Long Drives", "icon": "CarFront", "note": "Open roads, clear mind." },
+    { "name": "Cars & Bikes", "icon": "Bike", "note": "Engines, design and detail." },
+    { "name": "Music", "icon": "Headphones", "note": "The soundtrack to every build." },
+    { "name": "Coding", "icon": "Code2", "note": "Turning ideas into interfaces." },
+    { "name": "Movies", "icon": "Clapperboard", "note": "Stories, framing and craft." },
+    { "name": "Cricket", "icon": "Trophy", "note": "A good game, anytime." }
+  ],
+  "contact": {
+    "fields": {
+      "name": "Your name",
+      "email": "Your email",
+      "message": "Tell me about your idea"
+    }
+  },
+  "socials": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/iim-rohit",
+      "icon": "Github",
+      "placeholder": null
+    },
+    {
+      "label": "LinkedIn",
+      "url": null,
+      "icon": "Linkedin",
+      "placeholder": "LinkedIn link coming soon"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:8555rjkumar@gmail.com",
+      "icon": "Mail",
+      "placeholder": null
+    }
+  ]
+}
